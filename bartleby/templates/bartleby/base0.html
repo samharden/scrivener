@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>scrivener.io</title>
+    {% endif %}
+
+{% load static %}
+<link rel='stylesheet' id='style-css'  href='{% static '/stylesheet.css' %}' type='text/css' media='all' />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+
+
+  				<header class="topbar" style="fixed" role="">
+  			<div class="navbar.fixed">
+  				<div class="container clearfix">
+  									<a href="/">scrivener</a>
+          </div>
+        </div>
+	</header>
+<br><br>
+
+
+  	<main class="main container clearfix" role="main">
+
+    {% block content %}
+
+
+
+
+    {% endblock %}
+
+<br><br><br>
+
+<footer>
+
+
+    		</footer>
+    	</div>
+    	<main class="main container clearfix" role="main">
+
+
+
+
+
+</html>
