@@ -28,7 +28,7 @@ def index(request):
             FORMAT = pyaudio.paInt16
             CHANNELS = 2
             RATE = 44100
-            RECORD_SECONDS = 10
+            RECORD_SECONDS = 20
             WAVE_OUTPUT_FILENAME = file_name+".wav"
 
             p = pyaudio.PyAudio()

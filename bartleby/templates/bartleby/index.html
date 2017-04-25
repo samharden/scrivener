@@ -5,7 +5,7 @@
 <center>
 <form  method="post" action "">
       {% csrf_token %}
-{{ form }}
+{{ form.file_name }}
 <p><input type="submit" value="record" onclick="move()"/></p></center>
 
 {% if messages %}
