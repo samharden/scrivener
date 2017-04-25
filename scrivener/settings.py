@@ -25,7 +25,7 @@ SECRET_KEY = 'xou!qb9&j2$7s!ckf%hy)==sp)%adfuduml(l7=x79rw4%a4(*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'bartlebot.herokuapp.com']
 
 
 # Application definition
