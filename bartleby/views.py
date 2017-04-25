@@ -44,7 +44,8 @@ def index(request):
                             channels=CHANNELS,
                             rate=RATE,
                             input=True,
-                            frames_per_buffer=CHUNK)
+                            frames_per_buffer=CHUNK,
+                            output_device_index=0)
 
             print("* recording")
 
