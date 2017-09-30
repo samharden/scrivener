@@ -38,8 +38,8 @@ class Message(models.Model):
 def bartleby_get(file_name):
 
     speech_to_text = SpeechToTextV1(
-        username='0c3d1ccd-5627-429e-88c5-016e219f9a38',
-        password='SvCbBsO3mAB7',
+        username='username',
+        password='password',
         x_watson_learning_opt_out=False
     )
 
